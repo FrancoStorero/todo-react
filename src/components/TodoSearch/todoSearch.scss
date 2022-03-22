@@ -1,0 +1,22 @@
+.todoSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+
+  input {
+    min-width: 40%;
+    min-height: 6vh;
+    padding-left: .3rem;
+    font-size: 1.2rem;
+    border-radius: .3rem;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.623);
+
+
+
+    &:focus{
+      outline: 1px solid rgba(128, 128, 128, 0.904);
+    }
+  }
+}

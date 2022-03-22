@@ -1,0 +1,15 @@
+.addTodoButton {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.7rem;
+
+  svg {
+    width: 7vw;
+    height: 7vh;
+    cursor: pointer;
+
+    &:hover {
+      filter: brightness(60%);
+    }
+  }
+}
